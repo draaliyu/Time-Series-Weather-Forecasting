@@ -4,9 +4,8 @@ from processing import *
 from training import build_model, train_model, plot_history, save_model
 
 # Parameters
-#URI = "https://storage.googleapis.com/tensorflow/tf-keras-datasets/jena_climate_2009_2016.csv.zip"
 SEQ_LENGTH = 144
-TARGET_INDEX = 0  # Index for "T (degC)"
+TARGET_INDEX = 0  # Index for average temperature 
 SPLIT_RATIO = 0.8
 EPOCHS = 20
 BATCH_SIZE = 2
